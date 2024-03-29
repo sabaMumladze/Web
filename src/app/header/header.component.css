@@ -1,0 +1,77 @@
+.header {   
+    width: 1150px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    background-color: #4A4FCB;
+}
+.yourLOgo_conteiner{
+    width: 146px;
+    height: 48px;
+    background-color: white;
+    border-radius: 5px;
+    gap: 12px;
+    
+    
+}
+.sircle {
+    width: 34px;
+    height: 34px;
+    background-color: #2C3ABB;
+    border-radius: 50%;
+
+}
+.yourLOgo_conteiner > p {
+    font-size: 20px;
+    color: #4A4FCB;
+    margin-top: 17px;
+   
+
+}
+.yourLOgo_conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.header > select {
+    width: 77px;
+    height: 33px;
+    border-radius: 8px;
+    background-color: #FFEEEE;
+    color: #2C3ABB;
+    font-size: 17px;
+    margin-top: 2px;
+}
+.header > option {
+    font-weight: 600;
+    
+}
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  nav a:visited, a:link {
+    color: #607D8B;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+  }
+  nav a.active {
+    color: #039be5;
+  }

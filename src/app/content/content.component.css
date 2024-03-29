@@ -1,0 +1,159 @@
+.caruselImg {
+    width: 1150px;
+    height: 638px;
+}
+.canculate_conteiner {
+    background-color: #2C3ABB;
+    width: 1072px;
+    height: 109px;
+    position: absolute;
+    bottom: 50px;
+    left: 37px;
+    border-radius: 13px;
+    padding-bottom: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conteiner1 {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.conteiner1 > p {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.icon_input {
+    display: flex;
+}
+
+.icon_back {
+    width: 33px;
+    height: 46px;
+    background-color: white;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 26.5px;
+    height: 26px;
+}
+.icon_input > input {
+width: 165px;
+height: 44px;
+border-bottom-right-radius: 9px;
+border-top-right-radius: 9px;
+outline: none;
+border: none;
+font-size: 18px;
+}
+.icon_input > input::placeholder {
+    font-size: 18px;
+    color: gray;
+
+}
+.text {
+    height: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+h1 {
+    position: absolute;
+    top: 85px;
+    left: 184px;
+  
+
+
+    font-size: 43px;
+    color: #824ACB;
+}
+.canculate_conteiner > button {
+    width: 137px;
+    height: 46px;
+    border-radius: 9px;
+    border: 1px solid #35DE19;
+    background-color: #824ACB;
+    font-size: 18px;
+    font-weight: 570;
+    color: white;
+    margin-top: 31px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.canculate_conteiner > button > img {
+    width: 14px;
+    height: 14px;
+}
+.locate {
+    height: 44px;
+}
+.block {
+    display: none;
+   
+
+}
+.blockStyle {
+    width: 913px;
+    height: 433px;
+    background-color: #824ACB;
+    border: 2px solid #2C3ABB;
+    border-radius: 34px;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0 0 10px black;
+  
+
+    
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+}
+
+
+.calc2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+   
+}
+
+.inpo {
+    display: flex;
+    margin-left: 30px;
+}
+.calcButton{
+    width: 870px;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+   
+}
+.calcButton > button {
+    border: 2px solid #f8f8f8;
+    border-radius: 9px;
+    background-color: #2C3ABB;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    cursor: pointer;
+
+}
+.calcBtn {
+    cursor: pointer;
+}
